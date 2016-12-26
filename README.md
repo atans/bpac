@@ -35,6 +35,7 @@ to the require section of your `composer.json` file.
 
 ```php
 use atans\bpac\IPrinter;
+use atans\bpac\IDocument;
 
 $printer = new IPrinter();
 $installedPrinters = $printer->GetInstalledPrinters();
@@ -43,5 +44,18 @@ $installedPrinters = $printer->GetInstalledPrinters();
 // $printer = new Com('bpac.Printer'));
 // $installedPrinters = $printer->GetInstalledPrinters();
 
+
+// Print label using lbx template
+
+$document = new IDocument();
+
+$document->Open(realpath(__DIR__ . '/tests/assets/device.lbx'))
+
+$document->GetObject('brand')->Text = 'ThinkPad';
+
+$document->StartPrint('', PrintOptionConstants::bpoDefault);
+$document->PrintOut(1, PrintOptionConstants::bpoDefault);
+$document->EndPrint();
+$document->Close();
 
 ```
