@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="bootstrap.php" colors="true">
+    <testsuites>
+        <testsuite name=" b-Pac Test Suite">
+            <directory>./BpacTest</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

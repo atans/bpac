@@ -1,0 +1,25 @@
+{
+    "name": "atans/bpac",
+    "description": "Brother label printing b-PAC php library (Windows Only)",
+    "type": "api",
+    "keywords": ["brother","ptouch", "printer"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "atans",
+            "email": "atans.chiu@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.5",
+        "ext-com_dotnet": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "atans\\bpac\\": ""
+        }
+    }
+}
