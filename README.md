@@ -18,7 +18,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer atans/bpac "*"
+composer require atans/bpac
 ```
 
 or add
