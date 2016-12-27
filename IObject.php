@@ -6,6 +6,7 @@ namespace atans\bpac;
  * Class Print (bpac::Object)
  *
  * @author Atans Chiu
+ *
  * @property integer $Height          [get, set] Sets or acquires the height
  * @property integer $HorizontalAlign [get, set] Sets or acquires the horizontal alignment
  * @property string $Name             [get, set] Sets or acquires the object name

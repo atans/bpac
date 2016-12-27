@@ -6,6 +6,7 @@ namespace atans\bpac;
  * Class Print (bpac::Objects)
  *
  * @author Atans Chiu
+ *
  * @property integer  Count [get]
  *
  * @method array GetEnumerator () Acquires the collection iterator (refer to usage example for the usage method)
