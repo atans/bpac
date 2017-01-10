@@ -2,12 +2,12 @@
 
 namespace BpacTest;
 
-use atans\bpac\IPrinter;
+use atans\bpac\Printer;
 
-class IPrinterTest extends \PHPUnit_Framework_TestCase
+class PrinterTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var IPrinter
+     * @var Printer
      */
     protected $printer;
 
@@ -18,7 +18,7 @@ class IPrinterTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->printer = new IPrinter();
+        $this->printer = new Printer();
 
         $this->config = $GLOBALS['config'];
         parent::setUp();
