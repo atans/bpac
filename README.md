@@ -34,10 +34,10 @@ to the require section of your `composer.json` file.
 
 
 ```php
-use atans\bpac\IPrinter;
-use atans\bpac\IDocument;
+use atans\bpac\Printer;
+use atans\bpac\Document;
 
-$printer = new IPrinter();
+$printer = new Printer();
 $installedPrinters = $printer->GetInstalledPrinters();
 
 // Same as
@@ -47,7 +47,7 @@ $installedPrinters = $printer->GetInstalledPrinters();
 
 // Print label using lbx template
 
-$document = new IDocument();
+$document = new Document();
 
 $document->Open(realpath(__DIR__ . '/tests/assets/device.lbx'))
 
