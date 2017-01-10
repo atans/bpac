@@ -5,7 +5,7 @@ Brother label printing b-PAC php library (Windows Only)
 # Installation
 
 
-## Step 1.Install Labelling SDK (b-PAC)]
+## Step 1.Install Labelling SDK (b-PAC)
 
 ###  Download and install [Full b-PAC SDK for developers (SDK, User Guide & sample programs)](http://www.brother.com/product/dev/label/bpac/download/index.htm#full) 
 
