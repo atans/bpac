@@ -16,7 +16,7 @@ namespace atans\bpac;
  * @method boolean Remove (integer $index) Removes an object
  *
  */
-class IObjects extends BaseComModel
+class Objects extends BaseComModel
 {
     /**
      * Printer constructor.

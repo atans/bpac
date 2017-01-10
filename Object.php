@@ -42,7 +42,7 @@ namespace atans\bpac;
  * @method boolean SetPosition (integer $x, integer $y, integer $width, integer $height) Sets the object position and size
  * @method boolean SetSelection (integer $start, integer $end) Selects the character substring
  */
-class IObject extends BaseComModel
+class Object extends BaseComModel
 {
     /**
      * Printer constructor.

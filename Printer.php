@@ -3,7 +3,7 @@
 namespace atans\bpac;
 
 /**
- * Class Print (bpac::IPrinter)
+ * Class Print (bpac::Printer)
  *
  * @author Atans Chiu
  *
@@ -23,7 +23,7 @@ namespace atans\bpac;
  * @method boolean IsPrinterOnline (string $printerName) Acquires whether the printer specified with printerName is online
  * @method boolean IsPrinterSupported (string $printerName) Acquires whether the printer can be used with b-PAC
  */
-class IPrinter extends BaseComModel
+class Printer extends BaseComModel
 {
     /**
      * Printer constructor.
